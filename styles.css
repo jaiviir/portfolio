@@ -205,7 +205,7 @@ footer {
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
-    margin-left: 110px;
+    margin-left: 140px;
 }
 .image-content img{
 display: none;
