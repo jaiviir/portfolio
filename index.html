@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="logo">Jaiveer Singh</div>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="side-nav">
+        <!-- <div class="close-icon" onclick="toggleMenu()">&times;</div> -->
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+
+    <main>
+      <section class="hero">
+        <div class="text-content">
+          <h1>Hi I'm Jaiveer Singh</h1>
+          <p>
+            I'm a passionate developer with skills in various technologies.
+            Explore my work and get to know me better!
+          </p>
+          <p>Passionate about clean code and beautiful design.</p>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              class="icon linkedin"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://wa.me/9027665029"
+              target="_blank"
+              class="icon whatsapp"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="icon github">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="button-group">
+            <a href="#" class="btn download-btn">Download Resume</a>
+            <a href="#" class="btn contact-btn">Contact Me</a>
+          </div>
+        </div>
+        <div class="image-content">
+          <img src="/mainimg.png" alt="My Image" />
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="about-content">
+          <div class="about-image">
+            <img src="/aboutme.webp" alt="About Me Image" />
+          </div>
+          <div class="about-text">
+            <h2>About Myself</h2>
+            <p>
+              Hi, I'm Jaiveer Singh, a 2025 BCA graduate from Dev Bhoomi
+              Uttarakhand University and a passionate frontend developer. I’ve
+              built my skills through self-practice and personal projects using
+              HTML, CSS, JavaScript, and React.
+            </p>
+            <p>
+              I'm now looking for a full-time web development role where I can
+              learn, grow, and contribute as a fresher.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <h2>Web Development Skills</h2>
+        <div class="skills-content">
+          <!-- HTML -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-html5"></i>
+                <span>HTML</span>
+              </div>
+              <div class="card-back">
+                <p>2 Years Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
+              </div>
+              <div class="card-back">
+                <p>2 Years Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- JavaScript -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="card-back">
+                <p>2 Years Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- React.js -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-react"></i>
+                <span>React.js</span>
+              </div>
+              <div class="card-back">
+                <p>6 Months Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- Node.js -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-node-js"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="card-back">
+                <p>1 Year Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- MongoDB -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fas fa-database"></i>
+                <span>MongoDB</span>
+              </div>
+              <div class="card-back">
+                <p>1 Year Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- SQL -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fas fa-database"></i>
+                <span>SQL</span>
+              </div>
+              <div class="card-back">
+                <p>1 Year Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <!-- Other Skills Section -->
+        <h3>Other Skills</h3>
+        <div class="skills-content">
+          <!-- C Programming -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fas fa-code"></i>
+                <span>C Programming</span>
+              </div>
+              <div class="card-back">
+                <p>2 Years Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- DSA -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fas fa-project-diagram"></i>
+                <span>DSA</span>
+              </div>
+              <div class="card-back">
+                <p>1 Year Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- Python -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+              </div>
+              <div class="card-back">
+                <p>1 Year Practice-Based Experience</p>
+              </div>
+            </div>
+          </div>
+          <!-- Communication Skills -->
+          <div class="skill-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fas fa-comments"></i>
+                <span>Communication Skills</span>
+              </div>
+              <div class="card-back">
+                <p>Strong verbal and written communication abilities</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-content">
+          <div class="project-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <h3>Portfolio Website</h3>
+                <p>
+                  A responsive portfolio website showcasing my skills and
+                  projects.
+                </p>
+              </div>
+              <div class="card-back">
+                <p>Technologies: HTML, CSS, JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <h3>E-commerce App</h3>
+                <p>
+                  An e-commerce application with user authentication and payment
+                  integration.
+                </p>
+              </div>
+              <div class="card-back">
+                <p>Technologies: React, Node.js, MongoDB</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <h3>Blog Website</h3>
+                <p>
+                  A blog platform where users can create, edit, and delete posts
+                  with a clean UI.
+                </p>
+              </div>
+              <div class="card-back">
+                <p>Technologies: Django, SQLite</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-content">
+          <h2>Contact Me</h2>
+          <p>
+            If you have any questions or want to collaborate, feel free to reach
+            out!
+          </p>
+          <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Your Message"
+              required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; © 2025 Jaiveer Singh. Built with HTML & CSS | Let's Connect</p>
+    </footer>
+
+    <script src="assets/js/animations.js"></script>
+    <script>
+      console.log("Script is running");
+    </script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

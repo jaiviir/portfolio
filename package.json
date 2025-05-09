@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A personal portfolio website showcasing skills, projects, and contact information.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "personal",
+    "projects",
+    "skills",
+    "contact"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
